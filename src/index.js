@@ -1,3 +1,3 @@
-import { buildEveryMove } from "./movingLogic";
+import { buildEveryMove, knightMoves } from "./movingLogic";
 
-console.log(buildEveryMove([1,6]));
+console.log(knightMoves([0,0], [7,7]));
